@@ -7,8 +7,10 @@ public class Main {
 
         System.out.print("¿Cómo te llamas? ");
         nombre = sc.nextLine();
+        System.out.print("¿En qué ciudad vives? ");
+        ciudad = sc.nextLine();
 
-        System.out.println("Hola, " + nombre);
+        System.out.println("Hola " + nombre + ", que vives en " + ciudad);
 
     }
 }
